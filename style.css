@@ -74,38 +74,17 @@ img {
 
 /* Responsive */
 
-@media all and (max-width:421px) {
-
-  .container{
-    display: flex;
+@media all and (max-width:420px) {
+  .row {
+    width: 100%;
   }
-
-  .row{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
   }
-
-  .row .left{
-    margin: auto;
-    margin-bottom: 50px;
-
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
   }
-
-  .row .right{
-    margin:auto;
-    margin-bottom: 50px;
-  }
-
-
-  .row .central{
-    margin:auto;
-  }
-
-  #steps .row img{
-    width: 150px;
-  }
-
-
-
 }

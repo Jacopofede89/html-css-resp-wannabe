@@ -85,5 +85,6 @@
       #steps .row>.central,
       #steps .row>.right {
         width: 100%;
+        margin-top: 30px;
       }
   }
